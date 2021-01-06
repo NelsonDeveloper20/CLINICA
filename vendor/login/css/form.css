@@ -1,0 +1,153 @@
+﻿.header {
+    font-family: JosefinSans-Bold;
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffffff26;
+    box-shadow: -2px 24px 29px 20px rgb(0 121 178 / 15%);
+    padding-bottom: 16px;
+}
+
+.body_form {
+    color: white;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.circulebutton {
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    text-align: center !important;
+    background-color: #212529;
+    border: none;
+    color: white;
+    /* text-align: center; */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 3px solid #FFBF00;
+}
+
+.circulebuttonborder {
+    border-radius: 100%;
+    width: 56px;
+    height: 56px;
+    text-align: center !important;
+    background-color: #212529;
+    border: none;
+    color: white;
+    /* text-align: center; */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 3px solid #FFBF00;
+    webkit-box-shadow: 0px 5px 0px 2px rgba(255,191,0,1);
+    -moz-box-shadow: 0px 5px 0px 2px rgba(255,191,0,1);
+    box-shadow: 0px 0px 0px 2px rgba(255,191,0,1);
+}
+
+.input_covid {
+    font-family: Ubuntu-Bold;
+    font-size: 15px;
+    color: #fefffd;
+    line-height: 1.2;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 55px;
+    background: #1C1C1C;
+    border-radius: 7px;
+    padding: 0 35px 0 35px;
+}
+
+.whaper {
+    -moz-box-shadow: 2px 47px 0px 1px rgba(0,0,0,1);
+    -webkit-box-shadow: -1px 44px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: -1px 44px 0px 0px rgba(0,0,0,1);
+    box-shadow: 0px 90px 0px 0px rgb(28, 28, 28);
+}
+
+
+.colorPlomo {
+    background: #1C1C1C
+}
+
+.colorAmarrillo {
+    background: #FFBF00
+}
+
+.colorBlanco {
+    background: #FFFFFF;
+}
+
+.colorPlomoBlanco {
+    background: #AEAEAE
+}
+
+.btn_azul:hover {
+    background-color: #4c82f9;
+}
+
+.btn_azul {
+    margin-top: 60px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 60%;
+    height: 50px;
+    background-color: #2a64e4;
+    border-radius: 3px;
+    font-family: Ubuntu-Bold;
+    font-size: 15px;
+    color: white;
+    line-height: 1.2;
+    /* text-transform: uppercase; */
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.input_text {
+    font-size: 15px;
+    color: black;
+    /* line-height: 1.2; */
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 43px;
+    background: #1a45e21c;
+    border-radius: 7px;
+    padding: 0 35px 0 35px;
+}
+
+.footther {
+    height: 173px;
+    font-family: JosefinSans-Bold;
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+}

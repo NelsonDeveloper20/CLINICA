@@ -1,0 +1,22 @@
+
+<?php
+//.$_SESSION['idTrabajador'].",".$_SESSION['IdPerfil'].",".$_SESSION['idPuestoArchivo']
+$query = "call Usp_listarPendientes('".$_SESSION['idTrabajador']."')";
+$result_tasks = mysqli_query($conn, $query);    
+
+while($row = mysqli_fetch_assoc($result_tasks)) { ?>
+<tr>
+<td class="hiidenn"><?php echo $row['idTipoDocumentoTrabajador']; ?></td>
+<td class="hiidenn"><?php echo $row['idTipoDocumentos']; ?></td>
+<td><?php echo $row['TipoDocumento']; ?></td> 
+<td> 
+<span class="file-upload" style="margin-right: 4px !important; margin-top: 4px !important;margin-bottom: 4px !important;"> 
+<span><strong>Cargar</strong></span>
+<input type="file" multiple="multiple" onchange="updateList(this,'<?php echo $row['idTipoDocumentos']?>','<?php echo $row['idTipoDocumentoTrabajador']?>');"  accept=".pdf,.jpg,.png,.jpeg"  style="position: absolute;display: block;background: #ffffff00;opacity: 0;">  
+</span>            
+
+</td>
+<td><?php echo $row['archivo'];?></td>
+<td><?php echo $row['comentario'];?></td>
+</tr>
+<?php } ?> 
